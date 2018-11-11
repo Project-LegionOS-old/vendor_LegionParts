@@ -52,5 +52,14 @@ PRODUCT_PACKAGES += \
     QStileDottedCircle \
     QStileNinja \
     QStilePokesign \
-    QStileWavey
+    QStileWavey \
+    QStileCookie \
+    QStileInkDrop \
+    QStileSquaremedo \
+    QStileCosmos \
+    QStileDividedCircle \
+    QStileNeonLight \
+    QStileOxygen \
+    QStileTriangles \
+    QStileCircleOutline
 
