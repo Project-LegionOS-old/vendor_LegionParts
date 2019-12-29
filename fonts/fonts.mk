@@ -42,3 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/LegionParts/fonts/SonySketch/SonySketch.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SonySketch.ttf \
     vendor/LegionParts/fonts/Surfer/Surfer.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Surfer.ttf \
     vendor/LegionParts/fonts/vcrosd/vcr_osd_mono.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ThemeableFont-Regular.ttf
+
+# Extra Fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/LegionParts/fonts/NewFonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
