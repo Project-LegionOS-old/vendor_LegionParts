@@ -63,5 +63,13 @@ PRODUCT_PACKAGES += \
     QStileTriangles \
     QStileCircleOutline
 
-# Include Switch Styles
-include vendor/legion/Switch/switch.mk
+# Switch themes
+PRODUCT_PACKAGES += \
+    Stock \
+    OnePlus \
+    Narrow \
+    Contained \
+    Telegram \
+    Retro \
+    MD2 \
+    Stockish
