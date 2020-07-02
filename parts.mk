@@ -63,3 +63,5 @@ PRODUCT_PACKAGES += \
     QStileTriangles \
     QStileCircleOutline
 
+# Include Switch Styles
+include vendor/legion/Switch/switch.mk
