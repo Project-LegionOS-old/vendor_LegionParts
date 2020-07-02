@@ -41,3 +41,6 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden
+
+# Switch styles
+include vendor/LegionParts/switch/switch.mk
