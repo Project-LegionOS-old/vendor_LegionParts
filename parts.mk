@@ -36,16 +36,8 @@ include vendor/LegionParts/Switch/switch.mk
 # Include Legion Qs Tile Styles
 include vendor/LegionParts/QsThemes/qstheme.mk
 
-# Legion GVM overlays
-PRODUCT_PACKAGES += \
-    GVM-PG-IOS \
-    GVM-SBH-L \
-    GVM-SBH-M \
-    GVM-SBH-XL \
-    GVM-URM-L \
-    GVM-URM-M \
-    GVM-URM-R \
-    GVM-URM-S
+# Include Legion GVM overlays
+include vendor/LegionParts/Gvm/gvm.mk
 
 # Legion packages
 PRODUCT_PACKAGES += \
