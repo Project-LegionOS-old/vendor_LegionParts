@@ -1,4 +1,4 @@
-# QS Tile styles
+ # QS Tile styles
 PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDefault \
@@ -14,4 +14,7 @@ PRODUCT_PACKAGES += \
     QStileSquaremedo \
     QStilesCircleOutline \
     QSTileNeonLight \
+    QStileCosmos \
+    QStileDividedCircle \
+    QStileOxygen \
     QSTileTriangles
