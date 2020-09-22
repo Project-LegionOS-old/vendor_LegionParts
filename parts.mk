@@ -16,25 +16,11 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 DEVICE_PACKAGE_OVERLAYS += vendor/LegionParts/overlay/common
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-DEVICE_PACKAGE_OVERLAYS += vendor/LegionParts/overlay/fod
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/LegionParts/overlay/fod
-endif
-
 # Include Legion theme files
 include vendor/LegionParts/themes/themes.mk
 
 # Include Legion font files
 include vendor/LegionParts/fonts/fonts.mk
-
-# Include Legion QS Style files
-include vendor/LegionParts/QS/qsstyle.mk
-
-# Include Legion Switch Styles
-include vendor/LegionParts/Switch/switch.mk
-
-# Include Legion Qs Tile Styles
-include vendor/LegionParts/QsThemes/qstheme.mk
 
 # Include Legion GVM overlays
 include vendor/LegionParts/Gvm/gvm.mk
@@ -43,8 +29,6 @@ include vendor/LegionParts/Gvm/gvm.mk
 PRODUCT_PACKAGES += \
     LPaper-v1.0.0-release \
     GalleryGoPrebuilt \
-    Lawnchair \
-    OPScreenRecorder \
     SafetyHubPrebuilt \
     ViaBrowser
 
