@@ -16,6 +16,8 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 DEVICE_PACKAGE_OVERLAYS += vendor/LegionParts/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/legionParts/overlay
+
 # Include Legion theme files
 include vendor/LegionParts/themes/themes.mk
 
@@ -34,3 +36,7 @@ PRODUCT_PACKAGES += \
     TurboPrebuilt \
     ViaBrowser
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
