@@ -28,7 +28,7 @@ include vendor/LegionParts/Gvm/gvm.mk
 # Legion packages
 PRODUCT_PACKAGES += \
     LPaper-v1.0.0-release \
-    GalleryPrebuilt \
+    SimpleGalleryPro \
     GBoardPrebuilt \
     SafetyHubPrebuilt \
     TurboPrebuilt \
