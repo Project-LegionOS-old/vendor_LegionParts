@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     GBoardPrebuilt \
     SafetyHubPrebuilt \
     TurboPrebuilt \
+    Flipendo \
     ViaBrowser
 
 # Navbar
