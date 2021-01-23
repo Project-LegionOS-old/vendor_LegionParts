@@ -25,7 +25,7 @@ LOCAL_OVERRIDES_PACKAGES := Gallery Gallery2 Gallery3D GalleryNew3D
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LPaper-v1.0.0-release
+LOCAL_MODULE := LPaper-v2.0-release
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
