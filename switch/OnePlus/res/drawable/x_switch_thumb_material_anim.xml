@@ -16,22 +16,20 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
   <item android:id="@*android:id/off" android:state_checked="false">
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
+      <item android:bottom="3dp" android:gravity="center" android:left="3dp" android:right="3dp" android:top="3dp">
         <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
           <solid android:color="?android:colorBackground"/>
-          <stroke android:width="2dp" android:color="@*android:color/switch_track_material"/>
-          <size android:width="18dp" android:height="18dp"/>
+          <size android:width="21dp" android:height="21dp"/>
         </shape>
       </item>
     </layer-list>
   </item>
   <item android:id="@*android:id/on" android:state_checked="true">
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
+      <item android:bottom="3dp" android:gravity="center" android:left="3dp" android:right="3dp" android:top="3dp">
         <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
           <solid android:color="@*android:color/gradient_end"/>
-          <stroke android:width="2dp" android:color="@*android:color/gradient_start"/>
-          <size android:width="18dp" android:height="18dp"/>
+          <size android:width="21dp" android:height="21dp"/>
         </shape>
       </item>
     </layer-list>
