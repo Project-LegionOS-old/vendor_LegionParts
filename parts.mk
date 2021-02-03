@@ -43,33 +43,7 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayHidden
 
 # QS tile styles
-PRODUCT_PACKAGES += \
-    QStileCircleTrim \
-    QStileDefault \
-    QStileDualToneCircle \
-    QStileSquircleTrim \
-    QStileAttemptMountain \
-    QStileDottedCircle \
-    QStileNinja \
-    QStilePokesign \
-    QStileWavey \
-    QStileCookie \
-    QStileInkDrop \
-    QStileSquaremedo \
-    QStileCosmos \
-    QStileDividedCircle \
-    QStileNeonLight \
-    QStileOxygen \
-    QStileTriangles \
-    QStileCircleOutline
+include vendor/LegionParts/QsThemes/qsthemes.mk
 
 # Switch themes
-PRODUCT_PACKAGES += \
-    Stock \
-    OnePlus \
-    Narrow \
-    Contained \
-    Telegram \
-    Retro \
-    MD2 \
-    Stockish
+include vendor/LegionParts/switch/switch.mk
