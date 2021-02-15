@@ -105,3 +105,9 @@ PRODUCT_PACKAGES += \
     UiStyleRoundMedium \
     UiStyleNoCornerRadius \
     UiStyleRectangle
+
+# Gesture radius
+PRODUCT_PACKAGES += \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
