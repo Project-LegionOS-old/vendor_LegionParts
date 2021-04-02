@@ -24,9 +24,6 @@ include vendor/LegionParts/themes/themes.mk
 # Include Legion font files
 include vendor/LegionParts/fonts/fonts.mk
 
-# Include Legion GVM overlays
-include vendor/LegionParts/Gvm/gvm.mk
-
 # Legion packages
 PRODUCT_PACKAGES += \
     LPaper-v2.0-release \
@@ -45,3 +42,66 @@ PRODUCT_PACKAGES += \
 
 # Switch styles
 include vendor/LegionParts/switch/switch.mk
+
+# QS header styles
+PRODUCT_PACKAGES += \
+    QSHeaderBlack \
+    QSHeaderGrey \
+    QSHeaderLightGrey \
+    QSHeaderAccent \
+    QSHeaderTransparent
+
+# Panel Background
+PRODUCT_PACKAGES += \
+    PanelBgBatik \
+    PanelBgKece \
+    PanelBgOutline
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim \
+    QStileAttemptMountain \
+    QStileDottedCircle \
+    QStileNinja \
+    QStilePokesign \
+    QStileWavey \
+    QStileCookie \
+    QStileInkDrop \
+    QStileSquaremedo \
+    QStileCosmos \
+    QStileDividedCircle \
+    QStileNeonLight \
+    QStileOxygen \
+    QStileTriangles \
+    QStileCircleOutline
+
+# Brightness sliders Styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderDefault \
+    BrightnessSliderDaniel \
+    BrightnessSliderMemeMini \
+    BrightnessSliderMemeRound \
+    BrightnessSliderMemeRoundStroke \
+    BrightnessSliderMemeStroke \
+    BrightnessSliderMemeStrokeGradient \
+    BrightnessSliderRoundStrokeGradient \
+    BrightnessSliderRoundGradient \
+    BrightnessSliderMiniGradient \
+    BrightnessSliderHalfGradient \
+    BrightnessSliderMiniHalf \
+    BrightnessSliderFlat \
+    BrightnessSliderOOS
+
+# UI Styles
+PRODUCT_PACKAGES += \
+    StatusBar-Large \
+    StatusBar-Medium \
+    StatusBar-MediumLarge \
+    UiStyleDefault \
+    UiStyleRoundLarge \
+    UiStyleRoundMedium \
+    UiStyleNoCornerRadius \
+    UiStyleRectangle
