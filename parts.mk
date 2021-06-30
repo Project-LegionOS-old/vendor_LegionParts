@@ -43,6 +43,18 @@ PRODUCT_PACKAGES += \
 # Switch styles
 include vendor/LegionParts/switch/switch.mk
 
+# Switch themes
+PRODUCT_PACKAGES += \
+    OnePlus \
+    Narrow \
+    Contained \
+    Telegram \
+    Retro \
+    MD2 \
+    OOS \
+    Fluid \
+    AndroidS
+
 # QS header styles
 PRODUCT_PACKAGES += \
     QSHeaderBlack \

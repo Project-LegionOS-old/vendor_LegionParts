@@ -1,7 +1,11 @@
 # Switch themes
 PRODUCT_PACKAGES += \
-    SwitchTelegram \
-    SwitchOnePlus \
-    SwitchStock \
-    SwitchContained \
-    SwitchNarrow
+    OnePlus \
+    Narrow \
+    Contained \
+    Telegram \
+    Retro \
+    MD2 \
+    OOS \
+    Fluid \
+    AndroidS
