@@ -27,12 +27,16 @@ include vendor/LegionParts/fonts/fonts.mk
 # Legion packages
 PRODUCT_PACKAGES += \
     LPaper-v2.0-release \
-    SimpleGalleryPro \
     GBoardPrebuilt \
     SafetyHubPrebuilt \
     TurboPrebuilt \
-    Flipendo \
+    Flipendo
+
+ifeq ($(WITH_GAPPS),false)
+PRODUCT_PACKAGES += \
+    SimpleGalleryPro \
     ViaBrowser
+endif
 
 # Navbar
 PRODUCT_PACKAGES += \
