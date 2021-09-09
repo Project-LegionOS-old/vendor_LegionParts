@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
     TurboPrebuilt \
     Flipendo
 
-ifeq ($(WITH_GAPPS),false)
+ifeq ($(LEGION_BUILD_ZIP_TYPE),VANILLA)
 PRODUCT_PACKAGES += \
     SimpleGalleryPro \
     ViaBrowser
